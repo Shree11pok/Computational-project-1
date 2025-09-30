@@ -8,7 +8,7 @@ This project includes:
 - **Comparative studies** across different function types
 - **Visualization tools** for error behavior and convergence patterns
 
-### Core Analysis
+### Analysis
 - **Truncation Error Formulas**: Mathematical derivation of error bounds
 - **Empirical Error Calculation**: Actual error computation for numerical methods
 - **Convergence Rate Analysis**: Verification of theoretical convergence orders
@@ -19,12 +19,12 @@ This project includes:
 - **Trapezoidal Rule** - O(h²) convergence  
 - **Simpson's Rule** - O(h⁴) convergence
 
-Radioactive decay simulation
+### Radioactive decay simulation
 -**main_decay.py**     # Main simulation script
 -**ode_solvers.py**     # Euler and RK4 implementations
 -**physics_problems.py**  # Analytical solutions and ODE definitions
 
-Physics_problems.py
+### Physics_problems.py
 **decay_process(t, N, lam): ODE function dN/dt = -λN**
 **decay_analytic(t, N0, lam): Analytical solution N(t) = N₀e^(-λt)**
 o**de_solvers.py**
