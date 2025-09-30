@@ -19,12 +19,7 @@ This project includes:
 - **Trapezoidal Rule** - O(h²) convergence  
 - **Simpson's Rule** - O(h⁴) convergence
 
-### Physics Applications
-- Spring force and work calculations
-- Hooke's Law integration analysis
-- Derivative analysis for error prediction
-
-##radioactive decay simulation
+**##radioactive decay simulation**
 -**main_decay.py**             # Main simulation script
 -**ode_solvers.py**            # Euler and RK4 implementations
 -**physics_problems.py**        # Analytical solutions and ODE definitions
