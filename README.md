@@ -1,16 +1,12 @@
 # Numerical Integration Truncation Error Analysis
 
-A comprehensive Python toolkit for analyzing truncation errors in numerical integration methods, with applications to physics problems like spring force calculations.
+A comprehensive Python toolkit for analyzing truncation errors in numerical integration methods, and ordinary differential equation with applications to physics problems like spring force calculations and decay process respectively.
 
-## 📋 Overview
-
-This project provides:
+This project includes:
 - **Theoretical analysis** of truncation errors for Riemann sums, Trapezoidal rule, and Simpson's rule
 - **Empirical error calculations** and convergence rate analysis
 - **Comparative studies** across different function types
 - **Visualization tools** for error behavior and convergence patterns
-
-## 🚀 Features
 
 ### Core Analysis
 - **Truncation Error Formulas**: Mathematical derivation of error bounds
@@ -28,11 +24,10 @@ This project provides:
 - Hooke's Law integration analysis
 - Derivative analysis for error prediction
 
-##radioactive-decay-simulation/
-├── main_decay.py              # Main simulation script
-├── ode_solvers.py             # Euler and RK4 implementations
-├── physics_problems.py        # Analytical solutions and ODE definitions
-└── README.md                  # This file
+##radioactive decay simulation
+-main_decay.py              # Main simulation script
+-ode_solvers.py             # Euler and RK4 implementations
+-physics_problems.py        # Analytical solutions and ODE definitions
 
 #physics_problems.py
 decay_process(t, N, lam): ODE function dN/dt = -λN
@@ -41,8 +36,6 @@ ode_solvers.py
 
 euler_method(f, t_span, y0, dt): First-order explicit method
 rk4_method(f, t_span, y0, dt): Fourth-order Runge-Kutta method
-
-## 🛠 Installation
 
 ### Prerequisites
 ```bash
