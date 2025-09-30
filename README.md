@@ -28,6 +28,20 @@ This project provides:
 - Hooke's Law integration analysis
 - Derivative analysis for error prediction
 
+##radioactive-decay-simulation/
+├── main_decay.py              # Main simulation script
+├── ode_solvers.py             # Euler and RK4 implementations
+├── physics_problems.py        # Analytical solutions and ODE definitions
+└── README.md                  # This file
+
+#physics_problems.py
+decay_process(t, N, lam): ODE function dN/dt = -λN
+decay_analytic(t, N0, lam): Analytical solution N(t) = N₀e^(-λt)
+ode_solvers.py
+
+euler_method(f, t_span, y0, dt): First-order explicit method
+rk4_method(f, t_span, y0, dt): Fourth-order Runge-Kutta method
+
 ## 🛠 Installation
 
 ### Prerequisites
