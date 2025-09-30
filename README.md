@@ -25,9 +25,9 @@ This project includes:
 -**physics_problems.py**        # Analytical solutions and ODE definitions
 
 #physics_problems.py
-**decay_process(t, N, lam): ODE function dN/dt = -λN**
-**decay_analytic(t, N0, lam): Analytical solution N(t) = N₀e^(-λt)**
-o**de_solvers.py**
+**decay_process(t, N, lam): ODE function dN/dt = -λN**\\
+**decay_analytic(t, N0, lam): Analytical solution N(t) = N₀e^(-λt)**\\
+o**de_solvers.py**\\
 
 **euler_method(f, t_span, y0, dt): First-order explicit method**
 **rk4_method(f, t_span, y0, dt): Fourth-order Runge-Kutta method**
