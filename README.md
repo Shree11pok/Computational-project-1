@@ -19,12 +19,12 @@ This project includes:
 - **Trapezoidal Rule** - O(h²) convergence  
 - **Simpson's Rule** - O(h⁴) convergence
 
-**##radioactive decay simulation**
+###Radioactive decay simulation**
 -**main_decay.py**             # Main simulation script
 -**ode_solvers.py**            # Euler and RK4 implementations
 -**physics_problems.py**        # Analytical solutions and ODE definitions
 
-#physics_problems.py
+###physics_problems.py
 **decay_process(t, N, lam): ODE function dN/dt = -λN**\\
 **decay_analytic(t, N0, lam): Analytical solution N(t) = N₀e^(-λt)**\\
 o**de_solvers.py**\\
@@ -34,7 +34,7 @@ o**de_solvers.py**\\
 
 ### Prerequisites
 ```bash
-Python 3.7+
+Python3
 NumPy
 Matplotlib
 SciPy
